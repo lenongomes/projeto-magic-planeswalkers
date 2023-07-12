@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic The Gathering - Planeswalkers</title>
+    <link rel="shortcut icon" href="./src/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-container">
+        <img class="logo" src="./src/images/logo/logo.svg.png" alt="logo magic">
+    </header>
+
+    <main class="selecao-de-planeswalkers">
+        <section class="planeswalkers">
+            <h1 class="titulo">Selecione um Planeswalker</h1>
+            <ul class="lista-de-planeswalkers">
+
+                <li class="planeswalker selecionado" id="ajani" data-name="Ajani Goldmane" data-description="Ajani Goldmane é um planinauta leonino de Naya, Alara. Ele fazia parte do Gatewatch, mais tarde foi completado pelos phyrexianos para se tornar um agente adormecido. No final da Invasão do Multiverso de Nova Phyrexia, ele estava incompleto.
+                Sua especialidade é a magia da purificação do corpo e da alma: feitiços que curam e fortalecem seus aliados e feitiços que evocam a essência espiritual interior dos outros."><img src="./src/images/jpg/ajani.jpg" alt="Ajani"></li>
+
+                <li class="planeswalker" id="chandra" data-name="Chandra Nalaar" data-description="Chandra Nalaar é uma planinauta humana de Kaladesh e membro do Gatewatch. Chandra é um planeswalker centrado em mana vermelha, ao criar feitiços, o cabelo de Chandra fica em chamas e às vezes seus olhos ficam vermelhos. Enquanto ela caminha pelos planos, ela desaparece em uma conflagração de chamas laranja e vermelha."><img src="./src/images/jpg/chandra.jpg" alt="Chandra"></li>
+
+                <li class="planeswalker" id="jace" data-name="Jace Beleren" data-description="Jace Beleren é um planinauta humano completo e mago mental de Vryn. Enquanto trabalhava com o Consórcio Infinito em Ravnica, ele atendia pelo nome de Berrim. Ele é o ex-Living Guildpact de Ravnica e um membro fundador do Gatewatch. Ao criar feitiços, os olhos de Jace brilham em azul brilhante com magia. Ele geralmente tenta evitar o combate físico."><img src="./src/images/jpg/jace.jpg" alt="Jace"></li>
+
+                <li class="planeswalker" id="garruk" data-name="Garruk Wildspeaker" data-description="Garruk, chamado de orador selvagem, é um planinauta com habilidades de guerreiro-druida e uma afinidade especial com animais e feras. Sua arma preferida é um enorme machado. Garruk é um rastreador excepcional e pode se mover em completo silêncio. Ele pode ver (ou sentir) rastros de magia, incluindo aqueles deixados por transplanar."><img src="./src/images/jpg/garruk.jpg" alt="Garruk"></li>
+
+                <li class="planeswalker" id="lili" data-name="Liliana Vess" data-description="Liliana Vess é uma planinauta humana de Dominária e é tanto uma mestre necromante quanto uma curandeira. Por um tempo, ela estava morta para o Multiverso, sua sobrevivência conhecida apenas por membros selecionados do Gatewatch. Liliana, de cabelos negros, usa mana negra para reanimar os mortos, corromper os vivos e liberar o poder da morte."><img src="./src/images/jpg/lili.jpg" alt="Liliana"></li>
+
+                <li class="planeswalker" id="karn" data-name="Karn" data-description="Karn é um golem de prata que viaja no tempo de Dominária. Como líder relutante de Nova Phyrexia, ele foi chamado de Pai das Máquinas e mais tarde de Falso Patriarca. Duas vezes ele se tornou um planinauta, tendo herdado as centelhas de Urza e depois de Venser, mas ambas as vezes ele eventualmente sacrificou sua centelha para o bem maior. Capaz de controlar todas as cinco cores de mana, este poderoso artefato é um construtor de mundos e um aliado inestimável."><img src="./src/images/jpg/karn.jpg" alt="Karn"></li>
+            </ul>
+            <audio src="./src/audio/MTG Arena OST - Music From Decks Screen.mp3" controls preload autoplay loop="auto" volume="0.5"></audio>
+        </section>
+        <section class="planeswalker-selecionado">
+            <img
+              class="planeswalker-png"
+              src="./src/images/png/card-ajani.png"
+              alt="Planeswalker Selecionado"
+            />
+    
+            <div class="informacoes-planeswalker">
+              <h2 class="nome-planeswalker" id="nome-planeswalker">Ajani Goldmane</h2>
+              <p class="descricao-planeswalker" id="descricao-planeswalker">
+                Ajani Goldmane é um planinauta leonino de Naya, Alara. Ele fazia parte do Gatewatch, mais tarde foi completado pelos phyrexianos para se tornar um agente adormecido. No final da Invasão do Multiverso de Nova Phyrexia, ele estava incompleto.
+                Sua especialidade é a magia da purificação do corpo e da alma: feitiços que curam e fortalecem seus aliados e feitiços que evocam a essência espiritual interior dos outros.
+              </p>
+            </div>
+          </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
