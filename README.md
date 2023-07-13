@@ -1,4 +1,4 @@
-# projeto-magic-planeswalkers
+# Magic Planeswalkers
 Primeiro projeto pessoal baseado no universo de Magic The Gathering.
 
 Projeto simples usado como desafio para testar o que aprendi até agora com o curso DevQuest.
