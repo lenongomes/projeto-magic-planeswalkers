@@ -1,0 +1,38 @@
+@media (max-width: 1120px){
+    .header-container .logo{
+        max-width: 190px;
+    }
+
+    .selecao-de-planeswalkers{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .selecao-de-planeswalkers .planeswalkers{
+        margin-top: 38px;
+    }
+
+    .selecao-de-planeswalkers .planeswalkers .titulo{
+        font-size: 16px;
+    }
+
+    .selecao-de-planeswalkers .lista-de-planeswalkers{
+        gap: 10px;
+    }
+
+    .selecao-de-planeswalkers .planeswalker img{
+        width: 80px;
+    }
+
+    .planeswalker-selecionado .planeswalker-png{
+        width: 350px;
+        height: 350px;
+    }
+
+    .planeswalker-selecionado .descricao-planeswalker{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}
